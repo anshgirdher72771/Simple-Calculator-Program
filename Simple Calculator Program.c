@@ -8,8 +8,8 @@ float perform_Mul(float Num1, float Num2);
 float perform_Divide(float Num1, float Num2);
 
 int main() {
-     printf("                                                                Welcome To Our Student Database Management System                                    ");
-    printf("                                                                                                 Made By Ansh Girdher                                              \n");
+     printf("                                                                   Welcome To Our Simple Calculator Program                                    ");
+    printf("                                                                                                     Made By Ansh Girdher                                              \n");
 
     do {
         float *Num1 = (float*)malloc(sizeof(float));
@@ -28,7 +28,7 @@ start:
 
         switch (operator) {
             case '+':
-                printf("The Result is: %.5f\n", perform_addition(*Num1, *Num2));
+                printf("The Result is: %.5f\n",perform_addition(*Num1, *Num2));
                 break;
             case '-':
                 printf("The Result is: %.5f\n", perform_Substraction(*Num1, *Num2));
